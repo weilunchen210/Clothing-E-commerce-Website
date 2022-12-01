@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>clothing.ly signup</title>
+        <link rel="stylesheet" href="navigation.css">
+        <link rel="stylesheet" href="login_signup.css">
+        <script src="login_signup.js"></script>
+    </head>
+    <body>
+        <div class="logo">
+            clothing.ly
+        </div>
+        <div class="icon">
+            <img src="image/facebook.png" id="icon1">
+            <img src="image/instagram.png" id="icon2">
+            <img src="image/twitter.png" id="icon3">
+        </div>
+        <div class="toprow">
+        <div class="navigation">
+                <a class="login-active" href="login.html" id="login">Login/Signup</a>
+                <a id="icon4"  href="shopping-cart.html"> <img src="image/shopping-cart.png"></a>
+                <a class="nav" href="about.html">About</a>
+                <a class="nav" href="contact.html">Contact us</a>
+                <a class="nav" href="shop.html">Shop</a>
+                <a class="nav" href="index.html">Home</a>
+            </div>
+        </div>
+        <form>
+        <div class="container-signup">
+            <div class="input">
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="input">
+                <input type="text" id="Name" placeholder="Name">
+            </div>
+            <div class="input">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="input">
+                <input type="password" id="confirm_password" placeholder="Confirm Password">
+            </div>
+            <div class="text">
+                Back to <a href="login.html">login</a>
+            </div>
+            <div class="button">
+                <button id="signup" onclick="validatesignup()">
+                    Sign up
+                </button>
+            </div>
+        </div>
+    </form>
+    </body>

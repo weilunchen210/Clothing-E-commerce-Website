@@ -1,0 +1,75 @@
+body{
+    height:100%;
+    background-size: cover;
+    background-position: 0px 70px;
+    margin:0;
+    background-color:pink;
+}
+
+.toprow{
+    background-color:white;
+    height:auto;
+ }
+
+ .title{
+    text-align:center;
+    font-size:35px;
+    font-weight:700;
+    padding-top:25px;
+    padding-bottom:20px;
+    background: url("image/banner1.jpeg");
+    background-position:0px 1000px;
+ }
+
+.product-box{
+    float:left;
+    margin-left:100px;
+    margin-top:100px;
+    padding-bottom:100px;
+    width:320px;
+    height:500px;
+    background-color:white;
+}
+ .product img{
+    width:280px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+ }
+
+ .product h1{
+    font-size:20px;
+    padding-left:20px;
+ }
+
+#discounted{
+    text-decoration:line-through;
+ }
+
+ .bottom-row{
+    height:100px;
+    bottom:0px;
+    clear:left;
+ }
+
+.product button{
+    background-color:black;
+    color:white;
+    border-color:lightblue;
+    margin-left:20px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.product button:hover{
+    background-color:grey;
+    color:black;
+}
+
+
+@media (max-width:750px){
+
+    .product-box{
+        margin-left:10%;
+    }
+}

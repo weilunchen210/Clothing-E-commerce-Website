@@ -1,0 +1,95 @@
+.navigation {
+    margin-left:2%;
+    overflow:hidden;
+    padding-top:10px;
+}
+
+.navigation a{
+    float:right;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    padding:14px;
+    font-family: courier new;
+}
+
+.navigation a.nav:hover{
+    background-color: black;
+    color: white;
+    border-radius:25px;
+}
+
+.navigation a.active{
+    background-color: darkgrey;
+    color:gold;
+    border-radius:25px;
+}
+
+.logo{
+    color:black;
+    float:left;
+    padding:17px;
+    font-weight:bold;
+    font-family: courier new;
+    font-size:20px;
+    margin-top:5px
+}
+
+#icon1{
+    width:20px;
+    padding-top:19px;
+    float:left;
+    padding-left:px;
+
+}
+
+#icon2{
+    width:20px;
+    padding-top:19px;
+    float:left;
+    padding-left:7px;
+}
+
+#icon3{
+    width:20px;
+    padding-top:19px;
+    float:left;
+    padding-left:7px;
+}
+
+#icon4{
+    width:20px;
+    padding-right:15px
+}
+
+#login{
+    border-style:solid;
+    border-width:1px;
+    padding: 4px;
+    margin-top:8px;
+    margin-right:10px;
+}
+
+a #id:hover{
+    background-color:white !important;
+}
+
+.navigation .login:hover{ 
+    background-color:black;
+    color:white;
+}
+
+.navigation .login-active{
+    background-color:black;
+    color:gold;
+}
+
+@media (width:750px){
+    .navigation a{
+        display: flex;
+        flex-wrap:wrap;
+        float:none;
+        text-align:center;
+    }
+
+}

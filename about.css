@@ -1,0 +1,53 @@
+body{
+    background:url("image/background1.jpg");
+    height:100%;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position: 0px 0px;
+    margin:0;
+}
+
+
+.about_text{
+     width:300px;
+     font-family:courier new;
+}
+
+.container{
+     margin-left:10%;
+     margin-top:10%;
+     padding-left:10px;
+     float:left;
+     background-color:lightblue;
+}
+table{
+    width:300px;
+}
+table, td,th{
+    border-collapse:collapse;
+    border:solid 1px;
+}
+
+.bigcontainer{
+    width: 800px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    padding-top:10px;
+    margin-top:50px;
+}
+
+.toprow{
+    background-color:white;
+    height:auto; 
+}
+
+@media (max-width:750px){
+    .bigcontainer{
+        height:auto;
+        align-items:none;
+        display:block;
+    }
+}

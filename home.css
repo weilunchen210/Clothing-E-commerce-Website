@@ -1,0 +1,66 @@
+body{
+    background: url("image/background2.jpeg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    background-size: cover;
+    background-position: 0px 70px;
+    margin:0;
+}
+.toprow{
+    background-color:white;
+}
+
+.container{
+    max-width: 450px;
+    max-height: 200px;
+    padding-left: 14px;
+    padding-right: 11px;
+    position:relative;
+}
+
+
+.homepagewords{
+    text-align:center;
+    float:right;
+    margin-top:15%;
+    margin-right:10%;
+}
+
+#word1{
+     font-size:50px;
+     font-family: 'Times New Roman', Times, serif ;
+     font-weight:700;
+     text-align:left;
+
+}
+
+#word2{
+    font-family:Arial;
+    font-weight:600;
+    text-align:left;
+    padding-left:00px;
+    bottom:50px;
+    position:relative;
+
+}
+
+button{
+    position:relative;
+    bottom:50px;
+    right:70px;
+}
+
+
+.button{
+    background-color:grey;
+    color:white;
+    border-radius:50px;
+    padding:10px;
+    position:relative;
+    bottom:40px;
+    right:70px;
+    text-decoration:none;
+}
+
