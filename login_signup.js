@@ -44,6 +44,8 @@ function validatesignup(){
     else{
         password.value = "";
         email.value = "";
+        confirm_password.value="";
+        name.value="";
         alert("Sign up successful");
     }
 }
