@@ -1,4 +1,4 @@
-
+//function to validate whether the user has input anything in the input area
 function validateContact(){
     var name = document.getElementById("Name");
     var email = document.getElementById("Email");

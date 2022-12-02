@@ -4,11 +4,13 @@
         <meta charset="UTF">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>clothing.ly contact</title>
+        <!--links the html to the javascript and css-->
         <script src="contact.js"></script>
         <link rel="stylesheet" href="./contact.css">
         <link rel="stylesheet" href="./navigation.css">
     </head>
     <form>
+        <!--logo-->
         <div class="toprow">
         <div class="logo">
             clothing.ly
@@ -18,6 +20,7 @@
             <img src="image/instagram.png" id="icon2">
             <img src="image/twitter.png" id="icon3">
         </div>
+        <!--navigation bar on the top-->  
             <div class="navigation">
                 <a class="login" href="login.html" id="login">Login/Signup</a>
                 <a id="icon4"  href="shopping-cart.html"> <img src="image/shopping-cart.png"></a>
@@ -27,7 +30,11 @@
                 <a class="nav" href="index.html">Home</a>
             </div>
         </div>
+        <!--rectangle box with form in it-->
+        <!--onclick event used to validate whether the user has input into the input area or not-->
+        <!--an aleart will show if they did not input anything-->
         <div class="container">
+        <form>
             <h3>Contact us </h3>
             <div class="input">
                 <input type="text" placeholder="Name" id="Name">
@@ -43,6 +50,7 @@
                     Submit
             </button>
             </div>
+        </form>
             </div>
         </body>
 </html>

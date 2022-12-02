@@ -20,7 +20,7 @@ body{
     background: url("image/banner1.jpeg");
     background-position:0px 1000px;
  }
-
+/*product box for the product which alligns it from the left edge and give it a white background*/
 .product-box{
     float:left;
     margin-left:100px;
@@ -30,6 +30,8 @@ body{
     height:500px;
     background-color:white;
 }
+
+/*adjust the size of the product image and make it align to the center of the product box*/
  .product img{
     width:280px;
     padding-left:20px;
@@ -41,7 +43,7 @@ body{
     font-size:20px;
     padding-left:20px;
  }
-
+/*slash a word*/
 #discounted{
     text-decoration:line-through;
  }
@@ -52,6 +54,7 @@ body{
     clear:left;
  }
 
+
 .product button{
     background-color:black;
     color:white;
@@ -60,13 +63,14 @@ body{
     padding:10px;
     cursor:pointer;
 }
-
+/*Changes the color when cursor hovers over the button and makes the cursor looks like the button is clickable*/
 .product button:hover{
     background-color:grey;
     color:black;
 }
 
 
+/*scale the product box position to make it less odd in smaller screen*/
 @media (max-width:750px){
 
     .product-box{

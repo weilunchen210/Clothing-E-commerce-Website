@@ -1,9 +1,11 @@
+/*navigation bar styling*/
 .navigation {
     margin-left:2%;
     overflow:hidden;
     padding-top:10px;
 }
 
+/*float right so it is at the top right of the page. The text will go down once screen gets smalelr and pushes against the logo*/
 .navigation a{
     float:right;
     text-align:center;
@@ -12,19 +14,20 @@
     padding:14px;
     font-family: courier new;
 }
-
+/*hover animation when the user hover over the hyperlink button*/
 .navigation a.nav:hover{
     background-color: black;
     color: white;
     border-radius:25px;
 }
 
+/*shows the current page they are on*/
 .navigation a.active{
     background-color: darkgrey;
     color:gold;
     border-radius:25px;
 }
-
+/*the clothing.ly logo at the left*/
 .logo{
     color:black;
     float:left;
@@ -35,6 +38,7 @@
     margin-top:5px
 }
 
+/*style the icons so it fits into the navigation bar on top*/
 #icon1{
     width:20px;
     padding-top:19px;
@@ -70,10 +74,7 @@
     margin-right:10px;
 }
 
-a #id:hover{
-    background-color:white !important;
-}
-
+/*hover animation for the login/signup button*/
 .navigation .login:hover{ 
     background-color:black;
     color:white;
@@ -84,12 +85,13 @@ a #id:hover{
     color:gold;
 }
 
-@media (width:750px){
+/*@media (width:750px){
     .navigation a{
         display: flex;
         flex-wrap:wrap;
         float:none;
         text-align:center;
+        background-color:black;
     }
 
-}
+}*/

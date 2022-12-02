@@ -10,6 +10,7 @@ body{
    height:auto;
 }
 
+/*box where the form is inside of*/
 .container{
     width:470px;
     height:300px;
@@ -27,6 +28,7 @@ body{
     border:none;
 }
 
+/*style the input box for name and email*/
 .input input{
     border:none;
     width:300px;
@@ -37,6 +39,7 @@ body{
 
 }
 
+/*styles the message input box*/
 .input textarea{
     border:none;
     width:300px;
@@ -47,10 +50,8 @@ body{
     font-family:Arial;
 }
 
-.contact-form h3{
-    font-family:arial;
-}
 
+/*style the button*/
 .send-button #send{
     border:none;
     padding:10px 15px;

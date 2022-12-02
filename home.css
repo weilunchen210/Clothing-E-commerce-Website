@@ -8,8 +8,11 @@ body{
     background-position: 0px 70px;
     margin:0;
 }
+
+/*creates the white part of the navigation and goes down as the navigation hyperlinks gets squeeze down so it is still behind the hyperlinks*/
 .toprow{
     background-color:white;
+    height:auto;
 }
 
 .container{
@@ -27,7 +30,7 @@ body{
     margin-top:15%;
     margin-right:10%;
 }
-
+/*changes styling of the word*/
 #word1{
      font-size:50px;
      font-family: 'Times New Roman', Times, serif ;
@@ -35,7 +38,7 @@ body{
      text-align:left;
 
 }
-
+/*changes styling of the word*/
 #word2{
     font-family:Arial;
     font-weight:600;

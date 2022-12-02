@@ -1,5 +1,5 @@
 
-
+/*function to check whether the user has input anything the the input box*/
 function validatelogin(){
     var email = document.getElementById("email");
     var password = document.getElementById("password");
@@ -18,7 +18,7 @@ function validatelogin(){
         alert("Login successful");
     }
 }
-
+/*function to check whether the user has input anything in the input box*/
 function validatesignup(){
     var email = document.getElementById("email");
     var name = document.getElementById("Name");

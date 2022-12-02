@@ -1,3 +1,4 @@
+/*style the background*/
 body{
     background-color:#FDFD96;
     height:100%;
@@ -22,13 +23,13 @@ body{
     background-color:white;
 }
 
+/*styling of the total text and make it go to the bottom right of the big container*/
 .cart_text{
     width:300px;
     font-family:courier new;
     padding-left:500px;
     padding-top:400px;
     float:right;
-    align-items:center;
 }
 
 button{
@@ -37,12 +38,10 @@ button{
     padding: 10px 20px;
 }
 .cart_text p{
-    border-top:solid 1px;
-    border-left:solid 1px;
-    border-bottom:solid 1px;
-    border-right:solid 1px;
+    border:solid 1px;
 }
 
+/*style the wording of 'product is empty*/
 .empty{
     text-align:center;
     font-size:30px;
