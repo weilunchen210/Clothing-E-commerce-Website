@@ -8,9 +8,11 @@ body{
 }
 
 .toprow{
-    background:white;
-    height:auto;
-}
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+ }
 
 .cart_bigcontainer{
     width: 800px;

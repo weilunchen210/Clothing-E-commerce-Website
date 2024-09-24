@@ -6,9 +6,11 @@ body{
 }
 
 .toprow{
-   background-color:white;
-   height:auto;
-}
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+ }
 
 /*box where the form is inside of*/
 .container{

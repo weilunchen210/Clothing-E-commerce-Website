@@ -31,34 +31,29 @@
 .logo{
     color:black;
     float:left;
-    padding:17px;
     font-weight:bold;
     font-family: courier new;
     font-size:20px;
-    margin-top:5px
+    display:flex;
+    justify-content:center;
+    padding-left:10px;
+    flex-direction: row;
 }
 
-/*style the icons so it fits into the navigation bar on top*/
+.icon{
+    padding-left: 10px;
+}
+
 #icon1{
     width:20px;
-    padding-top:19px;
-    float:left;
-    padding-left:px;
-
 }
 
 #icon2{
     width:20px;
-    padding-top:19px;
-    float:left;
-    padding-left:7px;
 }
 
 #icon3{
     width:20px;
-    padding-top:19px;
-    float:left;
-    padding-left:7px;
 }
 
 #icon4{
@@ -85,13 +80,3 @@
     color:gold;
 }
 
-/*@media (width:750px){
-    .navigation a{
-        display: flex;
-        flex-wrap:wrap;
-        float:none;
-        text-align:center;
-        background-color:black;
-    }
-
-}*/

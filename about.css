@@ -45,9 +45,10 @@ table, td,th{
 
 .toprow{
     background-color:white;
-    height:auto; 
-}
-
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+ }
 @media (max-width:750px){
     .bigcontainer{
         height:auto;

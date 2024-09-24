@@ -12,8 +12,10 @@ body{
 /*creates the white part of the navigation and goes down as the navigation hyperlinks gets squeeze down so it is still behind the hyperlinks*/
 .toprow{
     background-color:white;
-    height:auto;
-}
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+ }
 
 .container{
     max-width: 450px;
